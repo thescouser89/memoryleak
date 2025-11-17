@@ -20,6 +20,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
+                    <finalName>memoryleak</finalName>
                     <archive>
                         <manifest>
                             <mainClass>org.example.Main</mainClass>
